@@ -8,7 +8,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Welcome, you can say Hello or Help. Which would you like to try?';
+        const speakOutput = 'Hallo zusammen, Ihr könnt mich begrüßen oder um Hilfe bitten.';
         return handlerInput.responseBuilder
             .speak(speakOutput)
             .reprompt(speakOutput)
@@ -21,7 +21,7 @@ const HelloWorldIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HelloWorldIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'Hello World!';
+        const speakOutput = 'Hallo Welt!';
         return handlerInput.responseBuilder
             .speak(speakOutput)
             //.reprompt('add a reprompt if you want to keep the session open for the user to respond')
@@ -34,7 +34,7 @@ const HelpIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'You can say hello to me! How can I help?';
+        const speakOutput = 'Ihr könnt mich begrüßen, sagt einfach Hallo.';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -49,7 +49,7 @@ const CancelAndStopIntentHandler = {
                 || Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.StopIntent');
     },
     handle(handlerInput) {
-        const speakOutput = 'Goodbye!';
+        const speakOutput = 'Auf Wiedersehen!';
         return handlerInput.responseBuilder
             .speak(speakOutput)
             .getResponse();
@@ -113,7 +113,7 @@ exports.handler = Alexa.SkillBuilders.custom()
         CancelAndStopIntentHandler,
         SessionEndedRequestHandler,
         IntentReflectorHandler, // make sure IntentReflectorHandler is last so it doesn't override your custom intent handlers
-        ) 
+        )
     .addErrorHandlers(
         ErrorHandler,
         )
