@@ -5,16 +5,16 @@
         "de-DE": {
           "summary": "Sample Short Description",
           "examplePhrases": [
-            "Alexa open hello world",
-            "hello",
-            "help"
+            "Alexa öffne hello world",
+            "hallo",
+            "hilfe"
           ],
           "name": "hackerschool",
-          "description": "Sample Full Description"
+          "description": "Beispielbeschreibung"
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "Sample Testing Instructions.",
+      "testingInstructions": "Beispiel Test Anleitung",
       "category": "KNOWLEDGE_AND_TRIVIA",
       "distributionCountries": []
     },
