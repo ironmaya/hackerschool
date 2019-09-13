@@ -17,7 +17,6 @@
               },
               {
                   "name": "HelloWorldIntent",
-                  "slots": [],
                   "samples": [
                       "hallo",
                       "Guten Tag",
