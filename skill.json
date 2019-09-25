@@ -3,26 +3,23 @@
     "publishingInformation": {
       "locales": {
         "de-DE": {
-          "summary": "Sample Short Description",
+          "summary": "<KURZBESCHREIBUNG>",
           "examplePhrases": [
-            "Alexa öffne hello world",
-            "hallo",
-            "hilfe"
+            "<BEISPIEL-AUFRUFE>"
           ],
-          "name": "hackerschool",
-          "description": "Beispielbeschreibung"
+          "name": "<SKILL-NAME>",
+          "description": "<BESCHREIBUNG>"
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "Beispiel Test Anleitung",
-      "category": "KNOWLEDGE_AND_TRIVIA",
+      "category": "<KATEGORIE>",
       "distributionCountries": []
     },
     "apis": {
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/custom",
-          "uri": "ask-custom-hackerschool-Maya"
+          "uri": "<NAME-FUER-LAMBDA-FUNKTION>"
         }
       }
     },
