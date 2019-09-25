@@ -6,8 +6,6 @@
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
 *.orig
-.ask/
-.ask/*
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*
@@ -197,5 +195,3 @@ typings/
 
 # End of https://www.gitignore.io/api/git,macos,linux,intellij,node
 
-## Alexa
-.ask/config
