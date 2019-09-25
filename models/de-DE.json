@@ -19,9 +19,9 @@
                   "name": "HelloWorldIntent",
                   "samples": [
                       "hallo",
-                      "Guten Tag",
+                      "guten Tag",
                       "hi",
-		      "hallo Welt"
+                      "hallo Welt"
                   ]
               },
               {
