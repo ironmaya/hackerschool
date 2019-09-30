@@ -1,7 +1,7 @@
 {
   "interactionModel": {
       "languageModel": {
-          "invocationName": "hackerschool",
+          "invocationName": "<AUFRUF-NAME>",
           "intents": [
               {
                   "name": "AMAZON.CancelIntent",
@@ -19,9 +19,9 @@
                   "name": "HelloWorldIntent",
                   "samples": [
                       "hallo",
-                      "Guten Tag",
+                      "guten Tag",
                       "hi",
-		      "hallo Welt"
+                      "hallo Welt"
                   ]
               },
               {

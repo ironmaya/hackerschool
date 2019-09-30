@@ -1,6 +1,6 @@
 const Alexa = require('ask-sdk-core');
 const defaultIntents = require('./intents/defaultIntents');
-const HelloWorldIntentHandler = require ('./intents/helloWorldIntent')
+const HelloWorldIntentHandler = require('./intents/helloWorldIntent');
 
 const {
 	LaunchRequestHandler,
